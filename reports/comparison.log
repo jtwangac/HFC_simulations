@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.11.14)  1 OCT 2017 11:48
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.11.14)  11 OCT 2017 12:24
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -339,232 +339,488 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 
 LaTeX Warning: No \author given.
 
-LaTeX Font Info:    Try loading font information for OMS+cmr on input line 45.
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 44.
 (/usr/local/texlive/2016/texmf-dist/tex/latex/base/omscmr.fd
 File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 45.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 44.
+
+<(UnifF_UnifW)Max_gain_of_forecasting_1.jpg, id=1, 642.4pt x 481.8pt>
+File: (UnifF_UnifW)Max_gain_of_forecasting_1.jpg Graphic file (type jpg)
+
+<use (UnifF_UnifW)Max_gain_of_forecasting_1.jpg>
+Package pdftex.def Info: (UnifF_UnifW)Max_gain_of_forecasting_1.jpg used on inp
+ut line 74.
+(pdftex.def)             Requested size: 216.48666pt x 162.36154pt.
+
+<(UnifF_UnifW)Max_lose_of_forecasting_1.jpg, id=2, 642.4pt x 481.8pt>
+File: (UnifF_UnifW)Max_lose_of_forecasting_1.jpg Graphic file (type jpg)
+
+<use (UnifF_UnifW)Max_lose_of_forecasting_1.jpg>
+Package pdftex.def Info: (UnifF_UnifW)Max_lose_of_forecasting_1.jpg used on inp
+ut line 77.
+(pdftex.def)             Requested size: 216.48666pt x 162.36154pt.
  [1
 
 {/usr/local/texlive/2016/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
-<(uniform)Avg_MnEx(X=1).jpg, id=15, 642.4pt x 481.8pt>
-File: (uniform)Avg_MnEx(X=1).jpg Graphic file (type jpg)
+<Ind(UnifF_UnifW)Avg_gain_of_forecasting_1.jpg, id=18, 642.4pt x 481.8pt>
+File: Ind(UnifF_UnifW)Avg_gain_of_forecasting_1.jpg Graphic file (type jpg)
 
-<use (uniform)Avg_MnEx(X=1).jpg>
-Package pdftex.def Info: (uniform)Avg_MnEx(X=1).jpg used on input line 75.
+<use Ind(UnifF_UnifW)Avg_gain_of_forecasting_1.jpg>
+Package pdftex.def Info: Ind(UnifF_UnifW)Avg_gain_of_forecasting_1.jpg used on 
+input line 85.
 (pdftex.def)             Requested size: 216.48666pt x 162.36154pt.
 
-<(uniform)Avg_MnEx(X=0).jpg, id=16, 642.4pt x 481.8pt>
-File: (uniform)Avg_MnEx(X=0).jpg Graphic file (type jpg)
+<Ind(UnifF_UnifW)Avg_lose_of_forecasting_1.jpg, id=19, 642.4pt x 481.8pt>
+File: Ind(UnifF_UnifW)Avg_lose_of_forecasting_1.jpg Graphic file (type jpg)
 
-<use (uniform)Avg_MnEx(X=0).jpg>
-Package pdftex.def Info: (uniform)Avg_MnEx(X=0).jpg used on input line 78.
+<use Ind(UnifF_UnifW)Avg_lose_of_forecasting_1.jpg>
+Package pdftex.def Info: Ind(UnifF_UnifW)Avg_lose_of_forecasting_1.jpg used on 
+input line 88.
 (pdftex.def)             Requested size: 216.48666pt x 162.36154pt.
 
-<(uniform)Max_MnEx(X=1).jpg, id=17, 642.4pt x 481.8pt>
+<(Beta(1_0dot2)F_UnifW)Max_gain_of_forecasting_1.jpg, id=20, 642.4pt x 481.8pt>
+File: (Beta(1_0dot2)F_UnifW)Max_gain_of_forecasting_1.jpg Graphic file (type jp
+g)
+<use (Beta(1_0dot2)F_UnifW)Max_gain_of_forecasting_1.jpg>
+Package pdftex.def Info: (Beta(1_0dot2)F_UnifW)Max_gain_of_forecasting_1.jpg us
+ed on input line 97.
+(pdftex.def)             Requested size: 216.48666pt x 162.36154pt.
+
+<(Beta(1_0dot2)F_UnifW)Max_lose_of_forecasting_1.jpg, id=21, 642.4pt x 481.8pt>
+File: (Beta(1_0dot2)F_UnifW)Max_lose_of_forecasting_1.jpg Graphic file (type jp
+g)
+<use (Beta(1_0dot2)F_UnifW)Max_lose_of_forecasting_1.jpg>
+Package pdftex.def Info: (Beta(1_0dot2)F_UnifW)Max_lose_of_forecasting_1.jpg us
+ed on input line 100.
+(pdftex.def)             Requested size: 216.48666pt x 162.36154pt.
+
+<Ind(Beta(1_0dot2)F_UnifW)Avg_gain_of_forecasting_1.jpg, id=22, 642.4pt x 481.8
+pt>
+File: Ind(Beta(1_0dot2)F_UnifW)Avg_gain_of_forecasting_1.jpg Graphic file (type
+ jpg)
+ <use Ind(Beta(1_0dot2)F_UnifW)Avg_gain_of_forecasting_1.jpg>
+Package pdftex.def Info: Ind(Beta(1_0dot2)F_UnifW)Avg_gain_of_forecasting_1.jpg
+ used on input line 108.
+(pdftex.def)             Requested size: 216.48666pt x 162.36154pt.
+
+<Ind(Beta(1_0dot2)F_UnifW)Avg_lose_of_forecasting_1.jpg, id=23, 642.4pt x 481.8
+pt>
+File: Ind(Beta(1_0dot2)F_UnifW)Avg_lose_of_forecasting_1.jpg Graphic file (type
+ jpg)
+ <use Ind(Beta(1_0dot2)F_UnifW)Avg_lose_of_forecasting_1.jpg>
+Package pdftex.def Info: Ind(Beta(1_0dot2)F_UnifW)Avg_lose_of_forecasting_1.jpg
+ used on input line 111.
+(pdftex.def)             Requested size: 216.48666pt x 162.36154pt.
+ [2 <./(UnifF_UnifW)Max_gain_of_forecasting_1.jpg> <./(UnifF_UnifW)Max_lose_of_
+forecasting_1.jpg> <./Ind(UnifF_UnifW)Avg_gain_of_forecasting_1.jpg> <./Ind(Uni
+fF_UnifW)Avg_lose_of_forecasting_1.jpg> <./(Beta(1_0dot2)F_UnifW)Max_gain_of_fo
+recasting_1.jpg> <./(Beta(1_0dot2)F_UnifW)Max_lose_of_forecasting_1.jpg>]
+<(Beta(0dot2_1)F_UnifW)Max_gain_of_forecasting_1.jpg, id=27, 642.4pt x 481.8pt>
+File: (Beta(0dot2_1)F_UnifW)Max_gain_of_forecasting_1.jpg Graphic file (type jp
+g)
+<use (Beta(0dot2_1)F_UnifW)Max_gain_of_forecasting_1.jpg>
+Package pdftex.def Info: (Beta(0dot2_1)F_UnifW)Max_gain_of_forecasting_1.jpg us
+ed on input line 120.
+(pdftex.def)             Requested size: 216.48666pt x 162.36154pt.
+
+<(Beta(0dot2_1)F_UnifW)Max_lose_of_forecasting_1.jpg, id=28, 642.4pt x 481.8pt>
+File: (Beta(0dot2_1)F_UnifW)Max_lose_of_forecasting_1.jpg Graphic file (type jp
+g)
+<use (Beta(0dot2_1)F_UnifW)Max_lose_of_forecasting_1.jpg>
+Package pdftex.def Info: (Beta(0dot2_1)F_UnifW)Max_lose_of_forecasting_1.jpg us
+ed on input line 123.
+(pdftex.def)             Requested size: 216.48666pt x 162.36154pt.
+
+<Ind(Beta(0dot2_1)F_UnifW)Avg_gain_of_forecasting_1.jpg, id=29, 642.4pt x 481.8
+pt>
+File: Ind(Beta(0dot2_1)F_UnifW)Avg_gain_of_forecasting_1.jpg Graphic file (type
+ jpg)
+ <use Ind(Beta(0dot2_1)F_UnifW)Avg_gain_of_forecasting_1.jpg>
+Package pdftex.def Info: Ind(Beta(0dot2_1)F_UnifW)Avg_gain_of_forecasting_1.jpg
+ used on input line 131.
+(pdftex.def)             Requested size: 216.48666pt x 162.36154pt.
+
+<Ind(Beta(0dot2_1)F_UnifW)Avg_lose_of_forecasting_1.jpg, id=30, 642.4pt x 481.8
+pt>
+File: Ind(Beta(0dot2_1)F_UnifW)Avg_lose_of_forecasting_1.jpg Graphic file (type
+ jpg)
+ <use Ind(Beta(0dot2_1)F_UnifW)Avg_lose_of_forecasting_1.jpg>
+Package pdftex.def Info: Ind(Beta(0dot2_1)F_UnifW)Avg_lose_of_forecasting_1.jpg
+ used on input line 134.
+(pdftex.def)             Requested size: 216.48666pt x 162.36154pt.
+
+<(Beta(100_100)F_UnifW)Max_gain_of_forecasting_1.jpg, id=31, 642.4pt x 481.8pt>
+File: (Beta(100_100)F_UnifW)Max_gain_of_forecasting_1.jpg Graphic file (type jp
+g)
+<use (Beta(100_100)F_UnifW)Max_gain_of_forecasting_1.jpg>
+Package pdftex.def Info: (Beta(100_100)F_UnifW)Max_gain_of_forecasting_1.jpg us
+ed on input line 143.
+(pdftex.def)             Requested size: 216.48666pt x 162.36154pt.
+
+<(Beta(100_100)F_UnifW)Max_lose_of_forecasting_1.jpg, id=32, 642.4pt x 481.8pt>
+File: (Beta(100_100)F_UnifW)Max_lose_of_forecasting_1.jpg Graphic file (type jp
+g)
+<use (Beta(100_100)F_UnifW)Max_lose_of_forecasting_1.jpg>
+Package pdftex.def Info: (Beta(100_100)F_UnifW)Max_lose_of_forecasting_1.jpg us
+ed on input line 146.
+(pdftex.def)             Requested size: 216.48666pt x 162.36154pt.
+ [3 <./Ind(Beta(1_0dot2)F_UnifW)Avg_gain_of_forecasting_1.jpg> <./Ind(Beta(1_0d
+ot2)F_UnifW)Avg_lose_of_forecasting_1.jpg> <./(Beta(0dot2_1)F_UnifW)Max_gain_of
+_forecasting_1.jpg> <./(Beta(0dot2_1)F_UnifW)Max_lose_of_forecasting_1.jpg> <./
+Ind(Beta(0dot2_1)F_UnifW)Avg_gain_of_forecasting_1.jpg> <./Ind(Beta(0dot2_1)F_U
+nifW)Avg_lose_of_forecasting_1.jpg>]
+<Ind(Beta(100_100)F_UnifW)Avg_gain_of_forecasting_1.jpg, id=36, 642.4pt x 481.8
+pt>
+File: Ind(Beta(100_100)F_UnifW)Avg_gain_of_forecasting_1.jpg Graphic file (type
+ jpg)
+ <use Ind(Beta(100_100)F_UnifW)Avg_gain_of_forecasting_1.jpg>
+Package pdftex.def Info: Ind(Beta(100_100)F_UnifW)Avg_gain_of_forecasting_1.jpg
+ used on input line 154.
+(pdftex.def)             Requested size: 216.48666pt x 162.36154pt.
+
+<Ind(Beta(100_100)F_UnifW)Avg_lose_of_forecasting_1.jpg, id=37, 642.4pt x 481.8
+pt>
+File: Ind(Beta(100_100)F_UnifW)Avg_lose_of_forecasting_1.jpg Graphic file (type
+ jpg)
+ <use Ind(Beta(100_100)F_UnifW)Avg_lose_of_forecasting_1.jpg>
+Package pdftex.def Info: Ind(Beta(100_100)F_UnifW)Avg_lose_of_forecasting_1.jpg
+ used on input line 157.
+(pdftex.def)             Requested size: 216.48666pt x 162.36154pt.
+
+<(UnifF_Beta(100_100)W)Avg_MnEx(X=1).jpg, id=38, 642.4pt x 481.8pt>
+File: (UnifF_Beta(100_100)W)Avg_MnEx(X=1).jpg Graphic file (type jpg)
+
+<use (UnifF_Beta(100_100)W)Avg_MnEx(X=1).jpg>
+Package pdftex.def Info: (UnifF_Beta(100_100)W)Avg_MnEx(X=1).jpg used on input 
+line 169.
+(pdftex.def)             Requested size: 216.48666pt x 162.36154pt.
+
+<(UnifF_Beta(100_100)W)Avg_MnEx(X=0).jpg, id=39, 642.4pt x 481.8pt>
+File: (UnifF_Beta(100_100)W)Avg_MnEx(X=0).jpg Graphic file (type jpg)
+
+<use (UnifF_Beta(100_100)W)Avg_MnEx(X=0).jpg>
+Package pdftex.def Info: (UnifF_Beta(100_100)W)Avg_MnEx(X=0).jpg used on input 
+line 172.
+(pdftex.def)             Requested size: 216.48666pt x 162.36154pt.
+
+<(UnifF_Pareto(1dot16_1)W)Avg_MnEx(X=1).jpg, id=40, 642.4pt x 481.8pt>
+File: (UnifF_Pareto(1dot16_1)W)Avg_MnEx(X=1).jpg Graphic file (type jpg)
+
+<use (UnifF_Pareto(1dot16_1)W)Avg_MnEx(X=1).jpg>
+Package pdftex.def Info: (UnifF_Pareto(1dot16_1)W)Avg_MnEx(X=1).jpg used on inp
+ut line 181.
+(pdftex.def)             Requested size: 216.48666pt x 162.36154pt.
+
+<(UnifF_Pareto(1dot16_1)W)Avg_MnEx(X=0).jpg, id=41, 642.4pt x 481.8pt>
+File: (UnifF_Pareto(1dot16_1)W)Avg_MnEx(X=0).jpg Graphic file (type jpg)
+
+<use (UnifF_Pareto(1dot16_1)W)Avg_MnEx(X=0).jpg>
+Package pdftex.def Info: (UnifF_Pareto(1dot16_1)W)Avg_MnEx(X=0).jpg used on inp
+ut line 184.
+(pdftex.def)             Requested size: 216.48666pt x 162.36154pt.
+ [4 <./(Beta(100_100)F_UnifW)Max_gain_of_forecasting_1.jpg> <./(Beta(100_100)F_
+UnifW)Max_lose_of_forecasting_1.jpg> <./Ind(Beta(100_100)F_UnifW)Avg_gain_of_fo
+recasting_1.jpg> <./Ind(Beta(100_100)F_UnifW)Avg_lose_of_forecasting_1.jpg> <./
+(UnifF_Beta(100_100)W)Avg_MnEx(X=1).jpg> <./(UnifF_Beta(100_100)W)Avg_MnEx(X=0)
+.jpg>]
+<(Beta(0dot3_0dot3)F_Beta(100_100)W)Avg_MnEx(X=1).jpg, id=45, 642.4pt x 481.8pt
+>
+File: (Beta(0dot3_0dot3)F_Beta(100_100)W)Avg_MnEx(X=1).jpg Graphic file (type j
+pg)
+ <use (Beta(0dot3_0dot3)F_Beta(100_100)W)Avg_MnEx(X=1).jpg>
+Package pdftex.def Info: (Beta(0dot3_0dot3)F_Beta(100_100)W)Avg_MnEx(X=1).jpg u
+sed on input line 193.
+(pdftex.def)             Requested size: 216.48666pt x 162.36154pt.
+
+<(Beta(0dot3_0dot3)F_Beta(100_100)W)Avg_MnEx(X=0).jpg, id=46, 642.4pt x 481.8pt
+>
+File: (Beta(0dot3_0dot3)F_Beta(100_100)W)Avg_MnEx(X=0).jpg Graphic file (type j
+pg)
+ <use (Beta(0dot3_0dot3)F_Beta(100_100)W)Avg_MnEx(X=0).jpg>
+Package pdftex.def Info: (Beta(0dot3_0dot3)F_Beta(100_100)W)Avg_MnEx(X=0).jpg u
+sed on input line 196.
+(pdftex.def)             Requested size: 216.48666pt x 162.36154pt.
+
+<(Beta(0dot3_0dot3)F_Pareto(1dot16_1)W)Avg_MnEx(X=1).jpg, id=47, 642.4pt x 481.
+8pt>
+File: (Beta(0dot3_0dot3)F_Pareto(1dot16_1)W)Avg_MnEx(X=1).jpg Graphic file (typ
+e jpg)
+ <use (Beta(0dot3_0dot3)F_Pareto(1dot16_1)W)Avg_MnEx(X=1).jpg>
+Package pdftex.def Info: (Beta(0dot3_0dot3)F_Pareto(1dot16_1)W)Avg_MnEx(X=1).jp
+g used on input line 205.
+(pdftex.def)             Requested size: 216.48666pt x 162.36154pt.
+
+<(Beta(0dot3_0dot3)F_Pareto(1dot16_1)W)Avg_MnEx(X=0).jpg, id=48, 642.4pt x 481.
+8pt>
+File: (Beta(0dot3_0dot3)F_Pareto(1dot16_1)W)Avg_MnEx(X=0).jpg Graphic file (typ
+e jpg)
+ <use (Beta(0dot3_0dot3)F_Pareto(1dot16_1)W)Avg_MnEx(X=0).jpg>
+Package pdftex.def Info: (Beta(0dot3_0dot3)F_Pareto(1dot16_1)W)Avg_MnEx(X=0).jp
+g used on input line 208.
+(pdftex.def)             Requested size: 216.48666pt x 162.36154pt.
+
+<(Beta(1_0dot2)F_Beta(100_100)W)Avg_MnEx(X=1).jpg, id=49, 642.4pt x 481.8pt>
+File: (Beta(1_0dot2)F_Beta(100_100)W)Avg_MnEx(X=1).jpg Graphic file (type jpg)
+
+<use (Beta(1_0dot2)F_Beta(100_100)W)Avg_MnEx(X=1).jpg>
+Package pdftex.def Info: (Beta(1_0dot2)F_Beta(100_100)W)Avg_MnEx(X=1).jpg used 
+on input line 220.
+(pdftex.def)             Requested size: 216.48666pt x 162.36154pt.
+
+<(Beta(1_0dot2)F_Beta(100_100)W)Avg_MnEx(X=0).jpg, id=50, 642.4pt x 481.8pt>
+File: (Beta(1_0dot2)F_Beta(100_100)W)Avg_MnEx(X=0).jpg Graphic file (type jpg)
+
+<use (Beta(1_0dot2)F_Beta(100_100)W)Avg_MnEx(X=0).jpg>
+Package pdftex.def Info: (Beta(1_0dot2)F_Beta(100_100)W)Avg_MnEx(X=0).jpg used 
+on input line 223.
+(pdftex.def)             Requested size: 216.48666pt x 162.36154pt.
+ [5 <./(UnifF_Pareto(1dot16_1)W)Avg_MnEx(X=1).jpg> <./(UnifF_Pareto(1dot16_1)W)
+Avg_MnEx(X=0).jpg> <./(Beta(0dot3_0dot3)F_Beta(100_100)W)Avg_MnEx(X=1).jpg> <./
+(Beta(0dot3_0dot3)F_Beta(100_100)W)Avg_MnEx(X=0).jpg> <./(Beta(0dot3_0dot3)F_Pa
+reto(1dot16_1)W)Avg_MnEx(X=1).jpg> <./(Beta(0dot3_0dot3)F_Pareto(1dot16_1)W)Avg
+_MnEx(X=0).jpg>]
+<(Beta(1_0dot2)F_Pareto(1dot16_1)W)Avg_MnEx(X=1).jpg, id=54, 642.4pt x 481.8pt>
+File: (Beta(1_0dot2)F_Pareto(1dot16_1)W)Avg_MnEx(X=1).jpg Graphic file (type jp
+g)
+<use (Beta(1_0dot2)F_Pareto(1dot16_1)W)Avg_MnEx(X=1).jpg>
+Package pdftex.def Info: (Beta(1_0dot2)F_Pareto(1dot16_1)W)Avg_MnEx(X=1).jpg us
+ed on input line 234.
+(pdftex.def)             Requested size: 216.48666pt x 162.36154pt.
+
+<(Beta(1_0dot2)F_Pareto(1dot16_1)W)Avg_MnEx(X=0).jpg, id=55, 642.4pt x 481.8pt>
+File: (Beta(1_0dot2)F_Pareto(1dot16_1)W)Avg_MnEx(X=0).jpg Graphic file (type jp
+g)
+<use (Beta(1_0dot2)F_Pareto(1dot16_1)W)Avg_MnEx(X=0).jpg>
+Package pdftex.def Info: (Beta(1_0dot2)F_Pareto(1dot16_1)W)Avg_MnEx(X=0).jpg us
+ed on input line 237.
+(pdftex.def)             Requested size: 216.48666pt x 162.36154pt.
+ [6 <./(Beta(1_0dot2)F_Beta(100_100)W)Avg_MnEx(X=1).jpg> <./(Beta(1_0dot2)F_Bet
+a(100_100)W)Avg_MnEx(X=0).jpg> <./(Beta(1_0dot2)F_Pareto(1dot16_1)W)Avg_MnEx(X=
+1).jpg> <./(Beta(1_0dot2)F_Pareto(1dot16_1)W)Avg_MnEx(X=0).jpg>]
+<MnEx(UnifF_UnifW)Avg_MnEx(X=1).jpg, id=59, 642.4pt x 481.8pt>
+File: MnEx(UnifF_UnifW)Avg_MnEx(X=1).jpg Graphic file (type jpg)
+
+<use MnEx(UnifF_UnifW)Avg_MnEx(X=1).jpg>
+Package pdftex.def Info: MnEx(UnifF_UnifW)Avg_MnEx(X=1).jpg used on input line 
+254.
+(pdftex.def)             Requested size: 216.48666pt x 162.36154pt.
+
+<MnEx(UnifF_UnifW)Avg_MnEx(X=0).jpg, id=60, 642.4pt x 481.8pt>
+File: MnEx(UnifF_UnifW)Avg_MnEx(X=0).jpg Graphic file (type jpg)
+
+<use MnEx(UnifF_UnifW)Avg_MnEx(X=0).jpg>
+Package pdftex.def Info: MnEx(UnifF_UnifW)Avg_MnEx(X=0).jpg used on input line 
+258.
+(pdftex.def)             Requested size: 216.48666pt x 162.36154pt.
+
+<(uniform)Max_MnEx(X=1).jpg, id=61, 642.4pt x 481.8pt>
 File: (uniform)Max_MnEx(X=1).jpg Graphic file (type jpg)
 
 <use (uniform)Max_MnEx(X=1).jpg>
-Package pdftex.def Info: (uniform)Max_MnEx(X=1).jpg used on input line 86.
+Package pdftex.def Info: (uniform)Max_MnEx(X=1).jpg used on input line 266.
 (pdftex.def)             Requested size: 216.48666pt x 162.36154pt.
 
-<(uniform)Max_MnEx(X=0).jpg, id=18, 642.4pt x 481.8pt>
+<(uniform)Max_MnEx(X=0).jpg, id=62, 642.4pt x 481.8pt>
 File: (uniform)Max_MnEx(X=0).jpg Graphic file (type jpg)
 
 <use (uniform)Max_MnEx(X=0).jpg>
-Package pdftex.def Info: (uniform)Max_MnEx(X=0).jpg used on input line 89.
+Package pdftex.def Info: (uniform)Max_MnEx(X=0).jpg used on input line 269.
 (pdftex.def)             Requested size: 216.48666pt x 162.36154pt.
 
-<(uniform)Min_MnEx(X=1).jpg, id=19, 642.4pt x 481.8pt>
+<(uniform)Min_MnEx(X=1).jpg, id=63, 642.4pt x 481.8pt>
 File: (uniform)Min_MnEx(X=1).jpg Graphic file (type jpg)
 
 <use (uniform)Min_MnEx(X=1).jpg>
-Package pdftex.def Info: (uniform)Min_MnEx(X=1).jpg used on input line 97.
+Package pdftex.def Info: (uniform)Min_MnEx(X=1).jpg used on input line 277.
 (pdftex.def)             Requested size: 216.48666pt x 162.36154pt.
 
-<(uniform)Min_MnEx(X=0).jpg, id=20, 642.4pt x 481.8pt>
+<(uniform)Min_MnEx(X=0).jpg, id=64, 642.4pt x 481.8pt>
 File: (uniform)Min_MnEx(X=0).jpg Graphic file (type jpg)
 
 <use (uniform)Min_MnEx(X=0).jpg>
-Package pdftex.def Info: (uniform)Min_MnEx(X=0).jpg used on input line 100.
+Package pdftex.def Info: (uniform)Min_MnEx(X=0).jpg used on input line 280.
 (pdftex.def)             Requested size: 216.48666pt x 162.36154pt.
- [2 <./(uniform)Avg_MnEx(X=1).jpg> <./(uniform)Avg_MnEx(X=0).jpg> <./(uniform)M
-ax_MnEx(X=1).jpg> <./(uniform)Max_MnEx(X=0).jpg> <./(uniform)Min_MnEx(X=1).jpg>
- <./(uniform)Min_MnEx(X=0).jpg>]
-<(Beta_0dot3_0dot3)Avg_MnEx(X=1).jpg, id=24, 642.4pt x 481.8pt>
-File: (Beta_0dot3_0dot3)Avg_MnEx(X=1).jpg Graphic file (type jpg)
+ [7 <./MnEx(UnifF_UnifW)Avg_MnEx(X=1).jpg> <./MnEx(UnifF_UnifW)Avg_MnEx(X=0).jp
+g> <./(uniform)Max_MnEx(X=1).jpg> <./(uniform)Max_MnEx(X=0).jpg> <./(uniform)Mi
+n_MnEx(X=1).jpg> <./(uniform)Min_MnEx(X=0).jpg>] <MnEx(Beta(0dot3_0dot3)F_UnifW
+)Avg_MnEx(X=1).jpg, id=69, 642.4pt x 481.8pt>
+File: MnEx(Beta(0dot3_0dot3)F_UnifW)Avg_MnEx(X=1).jpg Graphic file (type jpg)
 
-<use (Beta_0dot3_0dot3)Avg_MnEx(X=1).jpg>
-Package pdftex.def Info: (Beta_0dot3_0dot3)Avg_MnEx(X=1).jpg used on input line
- 111.
-(pdftex.def)             Requested size: 216.48666pt x 162.36154pt.
-
-<(Beta_0dot3_0dot3)Avg_MnEx(X=0).jpg, id=25, 642.4pt x 481.8pt>
-File: (Beta_0dot3_0dot3)Avg_MnEx(X=0).jpg Graphic file (type jpg)
-
-<use (Beta_0dot3_0dot3)Avg_MnEx(X=0).jpg>
-Package pdftex.def Info: (Beta_0dot3_0dot3)Avg_MnEx(X=0).jpg used on input line
- 114.
+<use MnEx(Beta(0dot3_0dot3)F_UnifW)Avg_MnEx(X=1).jpg>
+Package pdftex.def Info: MnEx(Beta(0dot3_0dot3)F_UnifW)Avg_MnEx(X=1).jpg used o
+n input line 292.
 (pdftex.def)             Requested size: 216.48666pt x 162.36154pt.
 
-<(Beta_0dot3_0dot3)Max_MnEx(X=1).jpg, id=26, 642.4pt x 481.8pt>
+<MnEx(Beta(0dot3_0dot3)F_UnifW)Avg_MnEx(X=0).jpg, id=70, 642.4pt x 481.8pt>
+File: MnEx(Beta(0dot3_0dot3)F_UnifW)Avg_MnEx(X=0).jpg Graphic file (type jpg)
+
+<use MnEx(Beta(0dot3_0dot3)F_UnifW)Avg_MnEx(X=0).jpg>
+Package pdftex.def Info: MnEx(Beta(0dot3_0dot3)F_UnifW)Avg_MnEx(X=0).jpg used o
+n input line 296.
+(pdftex.def)             Requested size: 216.48666pt x 162.36154pt.
+
+<(Beta_0dot3_0dot3)Max_MnEx(X=1).jpg, id=71, 642.4pt x 481.8pt>
 File: (Beta_0dot3_0dot3)Max_MnEx(X=1).jpg Graphic file (type jpg)
 
 <use (Beta_0dot3_0dot3)Max_MnEx(X=1).jpg>
 Package pdftex.def Info: (Beta_0dot3_0dot3)Max_MnEx(X=1).jpg used on input line
- 122.
+ 304.
 (pdftex.def)             Requested size: 216.48666pt x 162.36154pt.
 
-<(Beta_0dot3_0dot3)Max_MnEx(X=0).jpg, id=27, 642.4pt x 481.8pt>
+<(Beta_0dot3_0dot3)Max_MnEx(X=0).jpg, id=72, 642.4pt x 481.8pt>
 File: (Beta_0dot3_0dot3)Max_MnEx(X=0).jpg Graphic file (type jpg)
 
 <use (Beta_0dot3_0dot3)Max_MnEx(X=0).jpg>
 Package pdftex.def Info: (Beta_0dot3_0dot3)Max_MnEx(X=0).jpg used on input line
- 125.
+ 307.
 (pdftex.def)             Requested size: 216.48666pt x 162.36154pt.
 
-<(Beta_0dot3_0dot3)Min_MnEx(X=1).jpg, id=28, 642.4pt x 481.8pt>
+<(Beta_0dot3_0dot3)Min_MnEx(X=1).jpg, id=73, 642.4pt x 481.8pt>
 File: (Beta_0dot3_0dot3)Min_MnEx(X=1).jpg Graphic file (type jpg)
 
 <use (Beta_0dot3_0dot3)Min_MnEx(X=1).jpg>
 Package pdftex.def Info: (Beta_0dot3_0dot3)Min_MnEx(X=1).jpg used on input line
- 133.
+ 315.
 (pdftex.def)             Requested size: 216.48666pt x 162.36154pt.
 
-<(Beta_0dot3_0dot3)Min_MnEx(X=0).jpg, id=29, 642.4pt x 481.8pt>
+<(Beta_0dot3_0dot3)Min_MnEx(X=0).jpg, id=74, 642.4pt x 481.8pt>
 File: (Beta_0dot3_0dot3)Min_MnEx(X=0).jpg Graphic file (type jpg)
 
 <use (Beta_0dot3_0dot3)Min_MnEx(X=0).jpg>
 Package pdftex.def Info: (Beta_0dot3_0dot3)Min_MnEx(X=0).jpg used on input line
- 136.
+ 318.
 (pdftex.def)             Requested size: 216.48666pt x 162.36154pt.
- [3 <./(Beta_0dot3_0dot3)Avg_MnEx(X=1).jpg> <./(Beta_0dot3_0dot3)Avg_MnEx(X=0).
-jpg> <./(Beta_0dot3_0dot3)Max_MnEx(X=1).jpg> <./(Beta_0dot3_0dot3)Max_MnEx(X=0)
-.jpg> <./(Beta_0dot3_0dot3)Min_MnEx(X=1).jpg> <./(Beta_0dot3_0dot3)Min_MnEx(X=0
-).jpg>]
-<(Beta_1_0dot2)Avg_MnEx(X=1).jpg, id=33, 642.4pt x 481.8pt>
-File: (Beta_1_0dot2)Avg_MnEx(X=1).jpg Graphic file (type jpg)
+ [8 <./MnEx(Beta(0dot3_0dot3)F_UnifW)Avg_MnEx(X=1).jpg> <./MnEx(Beta(0dot3_0dot
+3)F_UnifW)Avg_MnEx(X=0).jpg> <./(Beta_0dot3_0dot3)Max_MnEx(X=1).jpg> <./(Beta_0
+dot3_0dot3)Max_MnEx(X=0).jpg> <./(Beta_0dot3_0dot3)Min_MnEx(X=1).jpg> <./(Beta_
+0dot3_0dot3)Min_MnEx(X=0).jpg>]
+<MnEx(Beta(1_0dot2)F_UnifW)Avg_MnEx(X=1).jpg, id=78, 642.4pt x 481.8pt>
+File: MnEx(Beta(1_0dot2)F_UnifW)Avg_MnEx(X=1).jpg Graphic file (type jpg)
 
-<use (Beta_1_0dot2)Avg_MnEx(X=1).jpg>
-Package pdftex.def Info: (Beta_1_0dot2)Avg_MnEx(X=1).jpg used on input line 146
-.
-(pdftex.def)             Requested size: 216.48666pt x 162.36154pt.
-
-<(Beta_1_0dot2)Avg_MnEx(X=0).jpg, id=34, 642.4pt x 481.8pt>
-File: (Beta_1_0dot2)Avg_MnEx(X=0).jpg Graphic file (type jpg)
-
-<use (Beta_1_0dot2)Avg_MnEx(X=0).jpg>
-Package pdftex.def Info: (Beta_1_0dot2)Avg_MnEx(X=0).jpg used on input line 149
-.
+<use MnEx(Beta(1_0dot2)F_UnifW)Avg_MnEx(X=1).jpg>
+Package pdftex.def Info: MnEx(Beta(1_0dot2)F_UnifW)Avg_MnEx(X=1).jpg used on in
+put line 329.
 (pdftex.def)             Requested size: 216.48666pt x 162.36154pt.
 
-<(Beta_1_0dot2)Max_MnEx(X=1).jpg, id=35, 642.4pt x 481.8pt>
+<MnEx(Beta(1_0dot2)F_UnifW)Avg_MnEx(X=0).jpg, id=79, 642.4pt x 481.8pt>
+File: MnEx(Beta(1_0dot2)F_UnifW)Avg_MnEx(X=0).jpg Graphic file (type jpg)
+
+<use MnEx(Beta(1_0dot2)F_UnifW)Avg_MnEx(X=0).jpg>
+Package pdftex.def Info: MnEx(Beta(1_0dot2)F_UnifW)Avg_MnEx(X=0).jpg used on in
+put line 333.
+(pdftex.def)             Requested size: 216.48666pt x 162.36154pt.
+
+<(Beta_1_0dot2)Max_MnEx(X=1).jpg, id=80, 642.4pt x 481.8pt>
 File: (Beta_1_0dot2)Max_MnEx(X=1).jpg Graphic file (type jpg)
 
 <use (Beta_1_0dot2)Max_MnEx(X=1).jpg>
-Package pdftex.def Info: (Beta_1_0dot2)Max_MnEx(X=1).jpg used on input line 157
+Package pdftex.def Info: (Beta_1_0dot2)Max_MnEx(X=1).jpg used on input line 341
 .
 (pdftex.def)             Requested size: 216.48666pt x 162.36154pt.
 
-<(Beta_1_0dot2)Max_MnEx(X=0).jpg, id=36, 642.4pt x 481.8pt>
+<(Beta_1_0dot2)Max_MnEx(X=0).jpg, id=81, 642.4pt x 481.8pt>
 File: (Beta_1_0dot2)Max_MnEx(X=0).jpg Graphic file (type jpg)
 
 <use (Beta_1_0dot2)Max_MnEx(X=0).jpg>
-Package pdftex.def Info: (Beta_1_0dot2)Max_MnEx(X=0).jpg used on input line 160
+Package pdftex.def Info: (Beta_1_0dot2)Max_MnEx(X=0).jpg used on input line 344
 .
 (pdftex.def)             Requested size: 216.48666pt x 162.36154pt.
 
-<(Beta_1_0dot2)Min_MnEx(X=1).jpg, id=37, 642.4pt x 481.8pt>
+<(Beta_1_0dot2)Min_MnEx(X=1).jpg, id=82, 642.4pt x 481.8pt>
 File: (Beta_1_0dot2)Min_MnEx(X=1).jpg Graphic file (type jpg)
 
 <use (Beta_1_0dot2)Min_MnEx(X=1).jpg>
-Package pdftex.def Info: (Beta_1_0dot2)Min_MnEx(X=1).jpg used on input line 168
+Package pdftex.def Info: (Beta_1_0dot2)Min_MnEx(X=1).jpg used on input line 352
 .
 (pdftex.def)             Requested size: 216.48666pt x 162.36154pt.
 
-<(Beta_1_0dot2)Min_MnEx(X=0).jpg, id=38, 642.4pt x 481.8pt>
+<(Beta_1_0dot2)Min_MnEx(X=0).jpg, id=83, 642.4pt x 481.8pt>
 File: (Beta_1_0dot2)Min_MnEx(X=0).jpg Graphic file (type jpg)
 
 <use (Beta_1_0dot2)Min_MnEx(X=0).jpg>
-Package pdftex.def Info: (Beta_1_0dot2)Min_MnEx(X=0).jpg used on input line 171
+Package pdftex.def Info: (Beta_1_0dot2)Min_MnEx(X=0).jpg used on input line 355
 .
 (pdftex.def)             Requested size: 216.48666pt x 162.36154pt.
- [4 <./(Beta_1_0dot2)Avg_MnEx(X=1).jpg> <./(Beta_1_0dot2)Avg_MnEx(X=0).jpg> <./
-(Beta_1_0dot2)Max_MnEx(X=1).jpg> <./(Beta_1_0dot2)Max_MnEx(X=0).jpg> <./(Beta_1
-_0dot2)Min_MnEx(X=1).jpg> <./(Beta_1_0dot2)Min_MnEx(X=0).jpg>]
-<(Beta_100_100)Avg_MnEx(X=1).jpg, id=42, 642.4pt x 481.8pt>
-File: (Beta_100_100)Avg_MnEx(X=1).jpg Graphic file (type jpg)
+ [9 <./MnEx(Beta(1_0dot2)F_UnifW)Avg_MnEx(X=1).jpg> <./MnEx(Beta(1_0dot2)F_Unif
+W)Avg_MnEx(X=0).jpg> <./(Beta_1_0dot2)Max_MnEx(X=1).jpg> <./(Beta_1_0dot2)Max_M
+nEx(X=0).jpg> <./(Beta_1_0dot2)Min_MnEx(X=1).jpg> <./(Beta_1_0dot2)Min_MnEx(X=0
+).jpg>]
+<MnEx(Beta(100_100)F_UnifW)Avg_MnEx(X=1).jpg, id=87, 642.4pt x 481.8pt>
+File: MnEx(Beta(100_100)F_UnifW)Avg_MnEx(X=1).jpg Graphic file (type jpg)
 
-<use (Beta_100_100)Avg_MnEx(X=1).jpg>
-Package pdftex.def Info: (Beta_100_100)Avg_MnEx(X=1).jpg used on input line 181
-.
+<use MnEx(Beta(100_100)F_UnifW)Avg_MnEx(X=1).jpg>
+Package pdftex.def Info: MnEx(Beta(100_100)F_UnifW)Avg_MnEx(X=1).jpg used on in
+put line 366.
 (pdftex.def)             Requested size: 216.48666pt x 162.36154pt.
 
-<(Beta_100_100)Avg_MnEx(X=0).jpg, id=43, 642.4pt x 481.8pt>
-File: (Beta_100_100)Avg_MnEx(X=0).jpg Graphic file (type jpg)
+<MnEx(Beta(100_100)F_UnifW)Avg_MnEx(X=0).jpg, id=88, 642.4pt x 481.8pt>
+File: MnEx(Beta(100_100)F_UnifW)Avg_MnEx(X=0).jpg Graphic file (type jpg)
 
-<use (Beta_100_100)Avg_MnEx(X=0).jpg>
-Package pdftex.def Info: (Beta_100_100)Avg_MnEx(X=0).jpg used on input line 184
-.
+<use MnEx(Beta(100_100)F_UnifW)Avg_MnEx(X=0).jpg>
+Package pdftex.def Info: MnEx(Beta(100_100)F_UnifW)Avg_MnEx(X=0).jpg used on in
+put line 370.
 (pdftex.def)             Requested size: 216.48666pt x 162.36154pt.
 
-<(Beta_100_100)Max_MnEx(X=1).jpg, id=44, 642.4pt x 481.8pt>
+<(Beta_100_100)Max_MnEx(X=1).jpg, id=89, 642.4pt x 481.8pt>
 File: (Beta_100_100)Max_MnEx(X=1).jpg Graphic file (type jpg)
 
 <use (Beta_100_100)Max_MnEx(X=1).jpg>
-Package pdftex.def Info: (Beta_100_100)Max_MnEx(X=1).jpg used on input line 192
+Package pdftex.def Info: (Beta_100_100)Max_MnEx(X=1).jpg used on input line 378
 .
 (pdftex.def)             Requested size: 216.48666pt x 162.36154pt.
 
-<(Beta_100_100)Max_MnEx(X=0).jpg, id=45, 642.4pt x 481.8pt>
+<(Beta_100_100)Max_MnEx(X=0).jpg, id=90, 642.4pt x 481.8pt>
 File: (Beta_100_100)Max_MnEx(X=0).jpg Graphic file (type jpg)
 
 <use (Beta_100_100)Max_MnEx(X=0).jpg>
-Package pdftex.def Info: (Beta_100_100)Max_MnEx(X=0).jpg used on input line 195
+Package pdftex.def Info: (Beta_100_100)Max_MnEx(X=0).jpg used on input line 381
 .
 (pdftex.def)             Requested size: 216.48666pt x 162.36154pt.
 
-<(Beta_100_100)Min_MnEx(X=1).jpg, id=46, 642.4pt x 481.8pt>
+<(Beta_100_100)Min_MnEx(X=1).jpg, id=91, 642.4pt x 481.8pt>
 File: (Beta_100_100)Min_MnEx(X=1).jpg Graphic file (type jpg)
 
 <use (Beta_100_100)Min_MnEx(X=1).jpg>
-Package pdftex.def Info: (Beta_100_100)Min_MnEx(X=1).jpg used on input line 203
+Package pdftex.def Info: (Beta_100_100)Min_MnEx(X=1).jpg used on input line 389
 .
 (pdftex.def)             Requested size: 216.48666pt x 162.36154pt.
 
-<(Beta_100_100)Min_MnEx(X=0).jpg, id=47, 642.4pt x 481.8pt>
+<(Beta_100_100)Min_MnEx(X=0).jpg, id=92, 642.4pt x 481.8pt>
 File: (Beta_100_100)Min_MnEx(X=0).jpg Graphic file (type jpg)
 
 <use (Beta_100_100)Min_MnEx(X=0).jpg>
-Package pdftex.def Info: (Beta_100_100)Min_MnEx(X=0).jpg used on input line 206
+Package pdftex.def Info: (Beta_100_100)Min_MnEx(X=0).jpg used on input line 392
 .
 (pdftex.def)             Requested size: 216.48666pt x 162.36154pt.
- [5 <./(Beta_100_100)Avg_MnEx(X=1).jpg> <./(Beta_100_100)Avg_MnEx(X=0).jpg> <./
-(Beta_100_100)Max_MnEx(X=1).jpg> <./(Beta_100_100)Max_MnEx(X=0).jpg> <./(Beta_1
-00_100)Min_MnEx(X=1).jpg> <./(Beta_100_100)Min_MnEx(X=0).jpg>] (./comparison.au
-x) ) 
+ [10 <./MnEx(Beta(100_100)F_UnifW)Avg_MnEx(X=1).jpg> <./MnEx(Beta(100_100)F_Uni
+fW)Avg_MnEx(X=0).jpg> <./(Beta_100_100)Max_MnEx(X=1).jpg> <./(Beta_100_100)Max_
+MnEx(X=0).jpg> <./(Beta_100_100)Min_MnEx(X=1).jpg> <./(Beta_100_100)Min_MnEx(X=
+0).jpg>] (./comparison.aux) ) 
 Here is how much of TeX's memory you used:
- 3723 strings out of 493014
- 52619 string characters out of 6133350
- 122546 words of memory out of 5000000
- 7167 multiletter control sequences out of 15000+600000
- 10591 words of font info for 42 fonts, out of 8000000 for 9000
+ 3867 strings out of 493014
+ 60535 string characters out of 6133350
+ 123546 words of memory out of 5000000
+ 7282 multiletter control sequences out of 15000+600000
+ 11503 words of font info for 45 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 38i,9n,26p,272b,432s stack positions out of 5000i,500n,10000p,200000b,80000s
-</usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.p
-fb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pf
-b></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb
-></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb><
-/usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></u
-sr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr
-/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/lo
-cal/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/loc
-al/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb>
-Output written on comparison.pdf (5 pages, 910794 bytes).
+ 38i,9n,26p,346b,366s stack positions out of 5000i,500n,10000p,200000b,80000s
+</usr/local/texlive/2016/texmf-dist/fonts/type1/pu
+blic/amsfonts/cm/cmbx10.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/pub
+lic/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/publ
+ic/amsfonts/cm/cmex10.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/publi
+c/amsfonts/cm/cmmi10.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public
+/amsfonts/cm/cmmi7.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/a
+msfonts/cm/cmr10.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/ams
+fonts/cm/cmr17.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfo
+nts/cm/cmr7.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts
+/cm/cmsy10.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/
+cm/cmsy7.pfb>
+Output written on comparison.pdf (10 pages, 2242062 bytes).
 PDF statistics:
- 80 PDF objects out of 1000 (max. 8388607)
- 39 compressed objects within 1 object stream
+ 129 PDF objects out of 1000 (max. 8388607)
+ 54 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
- 121 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 261 words of extra memory for PDF output out of 10000 (max. 10000000)
 

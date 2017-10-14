@@ -14,32 +14,48 @@ EPS = 0.00001
 d = 2  # # of realizations of a future event
 
 running_times = 1000
-range_n = range(5, 51, 5)
+range_n = range(5, 31, 5)
 
 avg_MnEx_CSR = []; avg_MnEx_NAW = []; avg_MnEx_PPM = []
 max_MnEx_CSR = []; max_MnEx_NAW = []; max_MnEx_PPM = []
 min_MnEx_CSR = []; min_MnEx_NAW = []; min_MnEx_PPM = []
+max_gain_CSR = []; max_gain_NAW = []; max_gain_PPM = []
+max_lose_CSR = []; max_lose_NAW = []; max_lose_PPM = []
 
 for n in range_n:
     print("# of agents: ", n)
     MnEx_CSR = np.zeros((running_times, d))
     MnEx_NAW = np.zeros((running_times, d))
     MnEx_PPM = np.zeros((running_times, d))
+
+    # forecast complete right or wrong by forecasting 1
+    max_complete_right_CSR = 0
+    min_complete_wrong_CSR = 0
+    max_complete_right_NAW = 0
+    min_complete_wrong_NAW = 0
+    max_complete_right_PPM = 0
+    min_complete_wrong_PPM = 0
+
     for t in range(running_times):
         # Generate forecasters' true believes and each row represents one belief
-        # forecasts = np.random.dirichlet(np.ones((d,)), size=n)
-        forecasts = np.random.dirichlet([1,0.2], size=n)
-        # forecasts = np.random.beta(0.3, 0.3, size=n)
+        forecasts = np.random.dirichlet(np.ones((d,)), size=n)
+        # forecasts = np.random.dirichlet([1, 0.2], size=n)
+        # forecasts = np.random.dirichlet([0.3, 0.3], size=n)
+        forecasts[0, :] = [1, 0]
         # print(forecasts)
 
         # Generate forecasters' wagers
         wagers = np.ones((n,))
+        # wagers = np.random.beta(100, 100, size=n)
+        # wagers = (np.random.pareto(1.16, size=n) + 1) * 1
         total_wager = np.sum(wagers)
 
         # Compute the outcome of no-arbitage wagering mechanism under each realization
         net_pays_CSR = sc.competitive_score_rule(sc.Brier_score(forecasts, 2, -1)) / 2
         net_pays_NAW = wg.no_arbitage_wagering(forecasts[:, 0], wagers)
         net_pays_PPM = wg.net_payoff_PPM(forecasts, wagers)
+
+        # value duplication for further modification
         MnEx_CSR_PS, MnEx_NAW_PS, MnEx_PPM_PS = (np.array(net_pays_CSR),
                                                  np.array(net_pays_NAW),
                                                  np.array(net_pays_PPM))
@@ -49,6 +65,13 @@ for n in range_n:
         # print(net_pays_CSR)
         # print(net_pays_NAW)
         # print(net_pays_PPM)
+
+        max_complete_right_CSR = max(net_pays_CSR[0, 0], max_complete_right_CSR)
+        min_complete_wrong_CSR = min(net_pays_CSR[0, 1], min_complete_wrong_CSR)
+        max_complete_right_NAW = max(net_pays_NAW[0, 0], max_complete_right_NAW)
+        min_complete_wrong_NAW = min(net_pays_NAW[0, 1], min_complete_wrong_NAW)
+        max_complete_right_PPM = max(net_pays_PPM[0, 0], max_complete_right_PPM)
+        min_complete_wrong_PPM = min(net_pays_PPM[0, 1], min_complete_wrong_PPM)
 
         MnEx_CSR_PS[MnEx_CSR_PS <= EPS] = 0; MnEx_CSR_NG[MnEx_CSR_NG > EPS] = 0
         MnEx_NAW_PS[MnEx_NAW_PS <= EPS] = 0; MnEx_NAW_NG[MnEx_NAW_NG > EPS] = 0
@@ -80,6 +103,15 @@ for n in range_n:
     max_MnEx_PPM.append(np.max(MnEx_PPM, axis=0))
     min_MnEx_PPM.append(np.min(MnEx_PPM, axis=0))
 
+    # convert min lose of neg value to max lose of absolue value
+    max_gain_CSR.append(max_complete_right_CSR / wagers[0])
+    max_lose_CSR.append(-min_complete_wrong_CSR / wagers[0])
+    max_gain_NAW.append(max_complete_right_NAW / wagers[0])
+    max_lose_NAW.append(-min_complete_wrong_NAW / wagers[0])
+    max_gain_PPM.append(max_complete_right_PPM / wagers[0])
+    max_lose_PPM.append(-min_complete_wrong_PPM / wagers[0])
+
+
 loop_time = time.time() - start_time
 print(loop_time)
 
@@ -92,8 +124,13 @@ avg_MnEx_NAW, max_MnEx_NAW, min_MnEx_NAW = (np.array(avg_MnEx_NAW),
 avg_MnEx_PPM, max_MnEx_PPM, min_MnEx_PPM = (np.array(avg_MnEx_PPM),
                                             np.array(max_MnEx_PPM),
                                             np.array(min_MnEx_PPM))
-
-file = open("(Beta_1_0.2)expr_money_exchange.npy", "wb")
+max_gain_CSR, max_gain_NAW, max_gain_PPM = (np.array(max_gain_CSR),
+                                            np.array(max_gain_NAW),
+                                            np.array(max_gain_PPM))
+max_lose_CSR, max_lose_NAW, max_lose_PPM = (np.array(max_lose_CSR),
+                                            np.array(max_lose_NAW),
+                                            np.array(max_lose_PPM))
+file = open("MnEx(Beta(0.3_0.3)F_Pareto(1.16_1)W).npy", "wb")
 np.save(file, range_n)
 
 np.save(file, avg_MnEx_CSR)
@@ -107,6 +144,14 @@ np.save(file, max_MnEx_PPM)
 np.save(file, min_MnEx_CSR)
 np.save(file, min_MnEx_NAW)
 np.save(file, min_MnEx_PPM)
+
+np.save(file, max_gain_CSR)
+np.save(file, max_gain_NAW)
+np.save(file, max_gain_PPM)
+
+np.save(file, max_lose_CSR)
+np.save(file, max_lose_NAW)
+np.save(file, max_lose_PPM)
 
 file.close()
 
