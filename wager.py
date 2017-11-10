@@ -32,13 +32,8 @@ def no_arbitage_wagering(forecasts, wagers, f_norm=f_norm_Brier_subgradient):
         w_zero_i[i] = 0
         p_bar[i] = f_norm(p, w_zero_i)
     P_bar_matrix = np.column_stack((p_bar, 1 - p_bar))
-    # print("p and p_bar:")
-    # print(P_matrix[:,0],P_bar_matrix[:,0])
     scores = (sc.Brier_score(P_matrix, b=0.5, a=-0.5) -
               sc.Brier_score(P_bar_matrix, b=0.5, a=-0.5))
-    # print(scores)
-    # print(coefficient)
-    # print(coefficient[:,None]*scores)
     return coefficient[:, None] * scores
 
 
@@ -55,15 +50,6 @@ def PPM_potiential_func(x, p, b):
             ret += -1000000  # log(0)
         else:
             ret += b[i] * np.log(np.dot(x[i * m:(i + 1) * m], p[i, :]))
-        # if (np.dot(x[i * m:(i + 1) * m], p[i, :]) < 0.00000001):
-        #      print('i: ', i)
-        #      print('x_i: ', x[i * m:(i + 1) * m])
-        #      print('p_i: ', p[i, :])
-        #      sys.exit()
-        # print(np.dot(x[i * m:(i + 1) * m], p[i, :]))
-        # print('loop: ', i, b[i], p[i, :], x[i * m:(i + 1) * m], np.dot(x[i * m:(i + 1) * m], p[i, :]))
-    # print(x)
-    # print('func: ', ret)
     return -ret
 
 
@@ -99,8 +85,6 @@ def PPM_normality_constraint(x, n, m):
     for j in range(m):
         for i in range(n):
             ret[j] -= x[i * m + j]
-    # print(x)
-    # print('nor: ', ret)
     return ret
 
 
@@ -114,23 +98,25 @@ def PPM_jac_normality_constraint(x, n, m):
     return ret
 
 
-def PPM_feasible_constraint(x, n, m):
-    # n = # of forecasters, m =# of realizations
-    # constraint: sum_j xij - 1/n >= 0 (not a tight bound)
+def PPM_feasible_constraint(x, w, m):
+    # w = wager vector of all players, m =# of realizations
+    # constraint: (sum_j xij) - (wi/\sum wi ) >= 0 (not a tight bound)
     # guarantee the log in the potential function is always
     #           valid during optimization
-    ret = -np.ones((n,)) / n
+    n = len(w)
+    ret = -w / np.sum(w)
     for i in range(n):
         for j in range(m):
             ret[i] += x[i * m + j]
     return ret
 
 
-def PPM_jac_feasible_constraint(x, n, m):
-    # n = # of forecasters, m =# of realizations
-    # constraint: sum_j xij - 1/n >= 0 (not a tight bound)
+def PPM_jac_feasible_constraint(x, w, m):
+    # w = wager vector of all players, m =# of realizations
+    # constraint: (sum_j xij) - (wi/\sum wi ) >= 0 (not a tight bound)
     # guarantee the log in the potential function is always
     #           valid during optimization
+    n = len(w)
     ret = np.zeros((n, n * m))
     for i in range(n):
         for j in range(m):
@@ -141,7 +127,7 @@ def PPM_jac_feasible_constraint(x, n, m):
 def proxy_parimutuel_eq(forecasts, wagers, maxiter=1000):
     n, d = np.shape(forecasts)
 
-    PPM_x0 = np.ones((n * d,)) / d
+    PPM_x0 = np.repeat(wagers / np.sum(wagers), d)
 
     PPM_cons = ({'type': 'ineq',
                  'fun': PPM_postive_constraint,
@@ -153,7 +139,7 @@ def proxy_parimutuel_eq(forecasts, wagers, maxiter=1000):
                 {'type': 'ineq',
                  'fun': PPM_feasible_constraint,
                  'jac': PPM_jac_feasible_constraint,
-                 'args': (n, d)})
+                 'args': (wagers, d)})
 
     PPM_res = opt.minimize(
         PPM_potiential_func,
@@ -165,6 +151,7 @@ def proxy_parimutuel_eq(forecasts, wagers, maxiter=1000):
         options={'disp': True, 'maxiter': maxiter})
 
     PPM_x = PPM_res.x.reshape((n, d))
+    #print(PPM_x)
 
     # Compute the total bet on realization j
     PPM_pi = np.zeros((d,))
@@ -175,6 +162,7 @@ def proxy_parimutuel_eq(forecasts, wagers, maxiter=1000):
             PPM_pi[j] = np.max([temp, PPM_pi[j]])
 
     PPM_beta = PPM_x * PPM_pi
+    #print(PPM_pi)
 
     return PPM_beta, PPM_x
 
@@ -186,7 +174,7 @@ def net_payoff_PPM(forecasts, wagers, maxiter=1000):
     net_payoff_PPM = np.tile(-wagers[:, None], d)
     for i in range(d):
         net_payoff_PPM[:, i] += total_wager * x[:, i]
-    return net_payoff_PPM
+    return net_payoff_PPM, beta
 
 
 '''
